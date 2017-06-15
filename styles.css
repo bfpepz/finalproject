@@ -1,0 +1,51 @@
+
+h1, h2, h3, h4 {
+	text-align: center;
+	padding: 1rem;
+	font-family: 'Lato' , sans-serif;
+}
+
+ul {
+	display: inline-flex; 
+	margin:0;
+	padding: 1rem;
+	width: 100%;
+	overflow: auto;
+}
+
+li {
+	padding: 3rem;
+	letter-spacing: 0.1rem;
+}
+
+#story {
+	align-items: center;
+	width: auto;
+}
+
+a:hover {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+article::first-letter { 
+  font-size: 500%;
+	float: left;
+}
+
+article {
+	font-size: 90%;
+}
+
+.button {
+	text-align: center;
+}
+
+caption {
+	color: dimgrey;
+	width: 100%;
+}
